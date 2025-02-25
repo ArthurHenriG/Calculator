@@ -4,50 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,600;1,14..32,600&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Calculator</title>
 </head>
 
 <body>
-    <main>
+    <div class="calculator">
         <div class="top">
-            <div class="display">display</div>
+            <div class="display"></div>
+            <div class="input"><input type="text"></div>
         </div>
         <div class="bottom">
-            <div class="input"><input type="text"></div>
-            <div class="options">
-                <div class="left">
-                    <div class="utility">
-                        <button class="clear square">☒</button>
-                        <button class="parentheses square">(</button>
-                        <button class="parentheses square">)</button>
-                        <button class="decimal square">.</button>
-                    </div>
-                    <div class="numbers">
-                        <button class="zero square">0</button>
-                        <button class="one square">1</button>
-                        <button class="two square">2</button>
-                        <button class="three square">3</button>
-                        <button class="four square">4</button>
-                        <button class="five square">5</button>
-                        <button class="six square">6</button>
-                        <button class="seven square">7</button>
-                        <button class="eight square">8</button>
-                        <button class="nine square">9</button>
-                        <button class="result square">=</button>
-                    </div>
-                </div>
-                <div class="right">
-                    <div class="operations">
-                        <button class="plus square">+</button>
-                        <button class="minus square">-</button>
-                        <button class="multiply square">x</button>
-                        <button class="divide square">÷</button>
-                    </div>
-                </div>
-            </div>
+            <button class="button clear">☒</button>
+            <button class="button">(</button>
+            <button class="button">)</button>
+            <button class="button">+</button>
+            <button class="button">0</button>
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">-</button>
+            <button class="button">3</button>
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">*</button>
+            <button class="button">6</button>
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">/</button>
+            <button class="button">9</button>
+            <button class="button">.</button>
+            <button class="button equal">=</button>
         </div>
-    </main>
+    </div>
 
     <script src="script.js"></script>
 </body>
