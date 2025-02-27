@@ -69,7 +69,7 @@ input:focus {
     border-radius: 10px;
 }
 
-.button {
+button {
     flex: 1 1 22%;
     height: 50px;
     display: flex;
@@ -81,11 +81,12 @@ input:focus {
     border: none;
 }
 
-.button.clear {
+button.clear {
     background-color: #a30000;
+    flex: 1 1 48%;
 }
 
-.button.equal {
+button.equal {
     background-color: #007f00;
     flex: 1 1 48%;
 }
