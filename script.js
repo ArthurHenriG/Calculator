@@ -4,7 +4,7 @@ const input=document.querySelector('input');
 const btnClear=document.querySelector('.clear');
 const btnEqual=document.querySelector('.equal');
 
-function userInput(){
+function Input(){
     btn.forEach((btn)=>{
         btn.addEventListener('click',(ele)=>{
             input.value+=btn.value
